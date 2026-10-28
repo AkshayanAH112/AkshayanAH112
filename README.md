@@ -29,7 +29,7 @@ A cricket club in Periyakallar, founded in 2007, that also runs free tuition for
 
 - **Web app:** 27,400 lines of TypeScript, 62 API routes and 40 pages. It covers students and batches, QR attendance, exam marks with Excel import and export, analysis PDFs, news with a Tiptap editor, a gallery, club membership applications, cricket teams, tournaments and match scoring, and a job that moves students up a grade every 1 January. Two staff roles are enforced on the server, not just hidden in the UI.
 - **Mobile app:** React and Vite wrapped in Capacitor for Android, 8,100 lines. It has no backend of its own and calls the web app's API with a bearer token. Scanning is its main job, and GitHub Actions builds the release APK.
-- [The live site](https://kcsc-web.vercel.app) · [web app code](https://github.com/AkshayanAH112/KCSC-WebApp) · [mobile app code](https://github.com/AkshayanAH112/KCSC-MobileApp)
+- [The live site](https://kallarcentralsc.com) · [web app code](https://github.com/AkshayanAH112/KCSC-WebApp) · [mobile app code](https://github.com/AkshayanAH112/KCSC-MobileApp)
 
 ### Kavery Sports Club
 
@@ -88,4 +88,4 @@ Five more repositories are still empty: BigData-New-Assessment, Thiby-Constructi
 
 ### Get in touch
 
-Email [akshayan078@gmail.com](mailto:akshayan078@gmail.com) or see [my portfolio](https://akshayan-portfolio.vercel.app).
+Email [akshayan078@gmail.com](mailto:akshayan078@gmail.com) or see [my portfolio](http://akshayank.com/).
