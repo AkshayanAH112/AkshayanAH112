@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-label="Vehicle Service Booking System: microservice architecture">
+<title>Vehicle Service Booking System: microservice architecture</title>
+<style>
+  text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  .ink { fill: #1f2328; } .muted { fill: #59636e; } .acc { fill: #1f7a4a; } .on { fill: #ffffff; }
+  .panel { fill: #f2f4f1; } .panel2 { fill: #e3e8e1; } .accp { fill: #e3f1e8; }
+  .wire { stroke: #8c959f; fill: none; } .wiref { fill: #8c959f; }
+  @media (prefers-color-scheme: dark) {
+    .ink { fill: #e6edf3; } .muted { fill: #9198a1; } .acc { fill: #2f9a68; }
+    .panel { fill: #161b22; } .panel2 { fill: #222a33; } .accp { fill: #13301f; }
+    .wire { stroke: #6e7681; } .wiref { fill: #6e7681; }
+  }
+</style>
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="wiref"/></marker></defs>
+<rect x="300" y="0" width="400" height="70" rx="6" class="panel"/><text x="316" y="28" font-size="17" font-weight="600" text-anchor="start" class="ink">Next.js portal</text><text x="316" y="52" font-size="14" font-weight="400" text-anchor="start" class="muted">customer dashboard and admin portal</text>
+<polyline points="500,70 500,104" class="wire" stroke-width="2" marker-end="url(#head)"/>
+<rect x="250" y="104" width="500" height="70" rx="6" class="panel"/><text x="266" y="132" font-size="17" font-weight="600" text-anchor="start" class="ink">Nginx gateway</text><text x="266" y="156" font-size="14" font-weight="400" text-anchor="start" class="muted">routing, rate limits, security headers</text>
+<polyline points="500,174 500,192 92,192 92,214" class="wire" stroke-width="2" marker-end="url(#head)"/><rect x="0" y="214" width="184" height="98" rx="6" class="accp"/><text x="16" y="242" font-size="17" font-weight="600" text-anchor="start" class="ink">Auth :8001</text><text x="16" y="266" font-size="14" font-weight="400" text-anchor="start" class="muted">FastAPI</text><text x="16" y="287" font-size="14" font-weight="400" text-anchor="start" class="muted">Postgres + Redis</text>
+<polyline points="500,174 500,192 296,192 296,214" class="wire" stroke-width="2" marker-end="url(#head)"/><rect x="204" y="214" width="184" height="98" rx="6" class="accp"/><text x="220" y="242" font-size="17" font-weight="600" text-anchor="start" class="ink">Vehicles :8003</text><text x="220" y="266" font-size="14" font-weight="400" text-anchor="start" class="muted">FastAPI</text><text x="220" y="287" font-size="14" font-weight="400" text-anchor="start" class="muted">Postgres</text>
+<polyline points="500,174 500,192 500,192 500,214" class="wire" stroke-width="2" marker-end="url(#head)"/><rect x="408" y="214" width="184" height="98" rx="6" class="accp"/><text x="424" y="242" font-size="17" font-weight="600" text-anchor="start" class="ink">Catalog :8004</text><text x="424" y="266" font-size="14" font-weight="400" text-anchor="start" class="muted">FastAPI</text><text x="424" y="287" font-size="14" font-weight="400" text-anchor="start" class="muted">MongoDB</text>
+<polyline points="500,174 500,192 704,192 704,214" class="wire" stroke-width="2" marker-end="url(#head)"/><rect x="612" y="214" width="184" height="98" rx="6" class="accp"/><text x="628" y="242" font-size="17" font-weight="600" text-anchor="start" class="ink">Booking :8005</text><text x="628" y="266" font-size="14" font-weight="400" text-anchor="start" class="muted">FastAPI</text><text x="628" y="287" font-size="14" font-weight="400" text-anchor="start" class="muted">Postgres</text>
+<polyline points="500,174 500,192 908,192 908,214" class="wire" stroke-width="2" marker-end="url(#head)"/><rect x="816" y="214" width="184" height="98" rx="6" class="accp"/><text x="832" y="242" font-size="17" font-weight="600" text-anchor="start" class="ink">Notify :8006</text><text x="832" y="266" font-size="14" font-weight="400" text-anchor="start" class="muted">FastAPI</text><text x="832" y="287" font-size="14" font-weight="400" text-anchor="start" class="muted">Postgres</text>
+<path d="M704,312 v30 h204 v-22" class="wire" stroke-width="2" fill="none" stroke-dasharray="6 5" marker-end="url(#head)"/>
+<text x="806" y="368" font-size="14" font-weight="400" text-anchor="middle" class="muted">RabbitMQ booking_events</text>
+<text x="0" y="368" font-size="14" font-weight="400" text-anchor="start" class="muted">Database per service · Docker Compose · scale with --scale</text>
+</svg>

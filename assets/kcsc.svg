@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="KCSC: from student ID card to the parent's results lookup">
+<title>KCSC: from student ID card to the parent's results lookup</title>
+<style>
+  text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  .ink { fill: #1f2328; } .muted { fill: #59636e; } .acc { fill: #1f7a4a; } .on { fill: #ffffff; }
+  .panel { fill: #f2f4f1; } .panel2 { fill: #e3e8e1; } .accp { fill: #e3f1e8; }
+  .wire { stroke: #8c959f; fill: none; } .wiref { fill: #8c959f; }
+  @media (prefers-color-scheme: dark) {
+    .ink { fill: #e6edf3; } .muted { fill: #9198a1; } .acc { fill: #2f9a68; }
+    .panel { fill: #161b22; } .panel2 { fill: #222a33; } .accp { fill: #13301f; }
+    .wire { stroke: #6e7681; } .wiref { fill: #6e7681; }
+  }
+</style>
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="wiref"/></marker></defs>
+<rect x="0" y="40" width="220" height="200" rx="6" class="panel"/>
+<rect x="16" y="56" width="188" height="118" rx="8" fill="#7a1018"/>
+<text x="30" y="82" font-size="12" font-weight="700" fill="#fff">KALLAR CENTRAL SC</text>
+<text x="30" y="104" font-size="11" fill="#f3d9db">Grade 4</text>
+<rect x="128" y="96" width="64" height="64" rx="4" fill="#fff"/>
+<rect x="134" y="102" width="7.4" height="7.4" fill="#1f2328"/><rect x="141.4" y="102" width="7.4" height="7.4" fill="#1f2328"/><rect x="148.8" y="102" width="7.4" height="7.4" fill="#1f2328"/><rect x="163.6" y="102" width="7.4" height="7.4" fill="#1f2328"/><rect x="171" y="102" width="7.4" height="7.4" fill="#1f2328"/><rect x="178.4" y="102" width="7.4" height="7.4" fill="#1f2328"/><rect x="141.4" y="109.4" width="7.4" height="7.4" fill="#1f2328"/><rect x="163.6" y="109.4" width="7.4" height="7.4" fill="#1f2328"/><rect x="171" y="109.4" width="7.4" height="7.4" fill="#1f2328"/><rect x="178.4" y="109.4" width="7.4" height="7.4" fill="#1f2328"/><rect x="141.4" y="116.8" width="7.4" height="7.4" fill="#1f2328"/><rect x="156.2" y="116.8" width="7.4" height="7.4" fill="#1f2328"/><rect x="163.6" y="116.8" width="7.4" height="7.4" fill="#1f2328"/><rect x="178.4" y="116.8" width="7.4" height="7.4" fill="#1f2328"/><rect x="134" y="124.2" width="7.4" height="7.4" fill="#1f2328"/><rect x="141.4" y="124.2" width="7.4" height="7.4" fill="#1f2328"/><rect x="163.6" y="124.2" width="7.4" height="7.4" fill="#1f2328"/><rect x="178.4" y="124.2" width="7.4" height="7.4" fill="#1f2328"/><rect x="134" y="131.6" width="7.4" height="7.4" fill="#1f2328"/><rect x="141.4" y="131.6" width="7.4" height="7.4" fill="#1f2328"/><rect x="156.2" y="131.6" width="7.4" height="7.4" fill="#1f2328"/><rect x="178.4" y="131.6" width="7.4" height="7.4" fill="#1f2328"/><rect x="134" y="139" width="7.4" height="7.4" fill="#1f2328"/><rect x="141.4" y="139" width="7.4" height="7.4" fill="#1f2328"/><rect x="156.2" y="139" width="7.4" height="7.4" fill="#1f2328"/><rect x="163.6" y="139" width="7.4" height="7.4" fill="#1f2328"/><rect x="171" y="139" width="7.4" height="7.4" fill="#1f2328"/><rect x="134" y="146.4" width="7.4" height="7.4" fill="#1f2328"/><rect x="148.8" y="146.4" width="7.4" height="7.4" fill="#1f2328"/><rect x="163.6" y="146.4" width="7.4" height="7.4" fill="#1f2328"/><rect x="171" y="146.4" width="7.4" height="7.4" fill="#1f2328"/><rect x="178.4" y="146.4" width="7.4" height="7.4" fill="#1f2328"/>
+<text x="16" y="204" font-size="17" font-weight="600" text-anchor="start" class="ink">QR ID card</text>
+<text x="16" y="226" font-size="14" font-weight="400" text-anchor="start" class="muted">printed for every student</text>
+<polyline points="220,140 256,140" class="wire" stroke-width="2" marker-end="url(#head)"/>
+<rect x="258" y="40" width="220" height="200" rx="6" class="panel"/>
+<rect x="318" y="54" width="100" height="128" rx="14" class="panel2"/>
+<rect x="341" y="92" width="7.6" height="7.6" class="ink"/><rect x="348.6" y="92" width="7.6" height="7.6" class="ink"/><rect x="356.2" y="92" width="7.6" height="7.6" class="ink"/><rect x="371.4" y="92" width="7.6" height="7.6" class="ink"/><rect x="379" y="92" width="7.6" height="7.6" class="ink"/><rect x="386.6" y="92" width="7.6" height="7.6" class="ink"/><rect x="348.6" y="99.6" width="7.6" height="7.6" class="ink"/><rect x="371.4" y="99.6" width="7.6" height="7.6" class="ink"/><rect x="379" y="99.6" width="7.6" height="7.6" class="ink"/><rect x="386.6" y="99.6" width="7.6" height="7.6" class="ink"/><rect x="348.6" y="107.2" width="7.6" height="7.6" class="ink"/><rect x="363.8" y="107.2" width="7.6" height="7.6" class="ink"/><rect x="371.4" y="107.2" width="7.6" height="7.6" class="ink"/><rect x="386.6" y="107.2" width="7.6" height="7.6" class="ink"/><rect x="341" y="114.8" width="7.6" height="7.6" class="ink"/><rect x="348.6" y="114.8" width="7.6" height="7.6" class="ink"/><rect x="371.4" y="114.8" width="7.6" height="7.6" class="ink"/><rect x="386.6" y="114.8" width="7.6" height="7.6" class="ink"/><rect x="341" y="122.4" width="7.6" height="7.6" class="ink"/><rect x="348.6" y="122.4" width="7.6" height="7.6" class="ink"/><rect x="363.8" y="122.4" width="7.6" height="7.6" class="ink"/><rect x="386.6" y="122.4" width="7.6" height="7.6" class="ink"/><rect x="341" y="130" width="7.6" height="7.6" class="ink"/><rect x="348.6" y="130" width="7.6" height="7.6" class="ink"/><rect x="363.8" y="130" width="7.6" height="7.6" class="ink"/><rect x="371.4" y="130" width="7.6" height="7.6" class="ink"/><rect x="379" y="130" width="7.6" height="7.6" class="ink"/><rect x="341" y="137.6" width="7.6" height="7.6" class="ink"/><rect x="356.2" y="137.6" width="7.6" height="7.6" class="ink"/><rect x="371.4" y="137.6" width="7.6" height="7.6" class="ink"/><rect x="379" y="137.6" width="7.6" height="7.6" class="ink"/><rect x="386.6" y="137.6" width="7.6" height="7.6" class="ink"/>
+<path d="M336,86 v-8 h8 M400,78 h8 v8 M408,150 v8 h-8 M344,158 h-8 v-8" class="wire" stroke-width="2.5"/>
+<text x="274" y="204" font-size="17" font-weight="600" text-anchor="start" class="ink">Scan at the door</text>
+<text x="274" y="226" font-size="14" font-weight="400" text-anchor="start" class="muted">web console or Android app</text>
+<polyline points="478,140 514,140" class="wire" stroke-width="2" marker-end="url(#head)"/>
+<rect x="516" y="40" width="220" height="200" rx="6" class="panel"/>
+<rect x="532" y="58" width="188" height="24" rx="4" class="panel2"/><rect x="540" y="64" width="90" height="12" rx="3" class="muted" opacity=".45"/><path d="M694,70 l5,5 l10,-10" stroke-width="2.5" fill="none" stroke="#1f7a4a"/>
+<rect x="532" y="88" width="188" height="24" rx="4" class="panel2"/><rect x="540" y="94" width="110" height="12" rx="3" class="muted" opacity=".45"/><path d="M694,100 l5,5 l10,-10" stroke-width="2.5" fill="none" stroke="#1f7a4a"/>
+<rect x="532" y="118" width="188" height="24" rx="4" class="panel2"/><rect x="540" y="124" width="76" height="12" rx="3" class="muted" opacity=".45"/><path d="M694,130 l5,5 l10,-10" stroke-width="2.5" fill="none" stroke="#1f7a4a"/>
+<rect x="532" y="148" width="188" height="24" rx="4" class="panel2"/><rect x="540" y="154" width="98" height="12" rx="3" class="muted" opacity=".45"/>
+<text x="532" y="204" font-size="17" font-weight="600" text-anchor="start" class="ink">Attendance register</text>
+<text x="532" y="226" font-size="14" font-weight="400" text-anchor="start" class="muted">per class, exported to Excel</text>
+<polyline points="736,140 772,140" class="wire" stroke-width="2" marker-end="url(#head)"/>
+<rect x="774" y="40" width="226" height="200" rx="6" class="panel"/>
+<rect x="790" y="58" width="194" height="34" rx="17" class="panel2"/>
+<text x="806" y="80" font-size="14" font-weight="400" text-anchor="start" class="muted">KCSC/2026/0001</text>
+<rect x="790" y="102" width="194" height="34" rx="17" class="acc"/>
+<text x="887" y="124" font-size="14" font-weight="600" text-anchor="middle" class="on">View results</text>
+<text x="790" y="204" font-size="17" font-weight="600" text-anchor="start" class="ink">Results for parents</text>
+<text x="790" y="226" font-size="14" font-weight="400" text-anchor="start" class="muted">marks, rank and progress</text>
+<text x="0" y="284" font-size="14" font-weight="400" text-anchor="start" class="muted">Redrawn from the live system. Grades 3 to 5, free tuition; English and Tamil throughout.</text>
+</svg>

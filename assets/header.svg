@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 290" width="1000" height="290" role="img" aria-label="Akshayan K, full-stack and mobile developer">
+<title>Akshayan K, full-stack and mobile developer</title>
+<style>
+  text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  .ink { fill: #1f2328; } .muted { fill: #59636e; } .acc { fill: #1f7a4a; } .on { fill: #ffffff; }
+  .panel { fill: #f2f4f1; } .panel2 { fill: #e3e8e1; } .accp { fill: #e3f1e8; }
+  .wire { stroke: #8c959f; fill: none; } .wiref { fill: #8c959f; }
+  @media (prefers-color-scheme: dark) {
+    .ink { fill: #e6edf3; } .muted { fill: #9198a1; } .acc { fill: #2f9a68; }
+    .panel { fill: #161b22; } .panel2 { fill: #222a33; } .accp { fill: #13301f; }
+    .wire { stroke: #6e7681; } .wiref { fill: #6e7681; }
+  }
+</style>
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="wiref"/></marker></defs>
+<text x="0" y="82" font-size="84" font-weight="800" text-anchor="start" class="ink">Akshayan K</text>
+<text x="0" y="130" font-size="23" font-weight="400" text-anchor="start" class="ink">Full-stack and mobile developer. I build the software that cricket clubs</text>
+<text x="0" y="160" font-size="23" font-weight="400" text-anchor="start" class="ink">and coaches run on, from the database schema to the phone in a coach’s hand.</text>
+<rect x="0" y="196" width="244" height="94" rx="6" class="accp"/><text x="18" y="244" font-size="40" font-weight="700" text-anchor="start" class="acc">131k</text><text x="18" y="274" font-size="15" font-weight="400" text-anchor="start" class="muted">lines of code in my public repos</text>
+<rect x="252" y="196" width="244" height="94" rx="6" class="panel"/><text x="270" y="244" font-size="40" font-weight="700" text-anchor="start" class="ink">3</text><text x="270" y="274" font-size="15" font-weight="400" text-anchor="start" class="muted">club and coaching platforms</text>
+<rect x="504" y="196" width="244" height="94" rx="6" class="panel"/><text x="522" y="244" font-size="40" font-weight="700" text-anchor="start" class="ink">79</text><text x="522" y="274" font-size="15" font-weight="400" text-anchor="start" class="muted">screens in Crikly’s Expo app</text>
+<rect x="756" y="196" width="244" height="94" rx="6" class="panel"/><text x="774" y="244" font-size="40" font-weight="700" text-anchor="start" class="ink">29</text><text x="774" y="274" font-size="15" font-weight="400" text-anchor="start" class="muted">public repositories</text>
+</svg>

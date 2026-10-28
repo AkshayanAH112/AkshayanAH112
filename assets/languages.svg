@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 274" width="1000" height="274" role="img" aria-label="Lines of code by language">
+<title>Lines of code by language</title>
+<style>
+  text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  .ink { fill: #1f2328; } .muted { fill: #59636e; } .acc { fill: #1f7a4a; } .on { fill: #ffffff; }
+  .panel { fill: #f2f4f1; } .panel2 { fill: #e3e8e1; } .accp { fill: #e3f1e8; }
+  .wire { stroke: #8c959f; fill: none; } .wiref { fill: #8c959f; }
+  @media (prefers-color-scheme: dark) {
+    .ink { fill: #e6edf3; } .muted { fill: #9198a1; } .acc { fill: #2f9a68; }
+    .panel { fill: #161b22; } .panel2 { fill: #222a33; } .accp { fill: #13301f; }
+    .wire { stroke: #6e7681; } .wiref { fill: #6e7681; }
+  }
+</style>
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="wiref"/></marker></defs>
+<text x="116" y="21" font-size="16" font-weight="400" text-anchor="end" class="ink">TypeScript</text><path d="M130,4 h696 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-696 z" class="acc"/><text x="842" y="21" font-size="15" font-weight="400" text-anchor="start" class="muted">95,696  ·  72.7%</text>
+<text x="116" y="59" font-size="16" font-weight="400" text-anchor="end" class="ink">JavaScript</text><path d="M130,42 h182.09659755893662 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-182.09659755893662 z" class="acc"/><text x="328.09659755893665" y="59" font-size="15" font-weight="400" text-anchor="start" class="muted">25,441  ·  19.3%</text>
+<text x="116" y="97" font-size="16" font-weight="400" text-anchor="end" class="ink">Dart</text><path d="M130,80 h29.304422337401775 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-29.304422337401775 z" class="acc"/><text x="175.30442233740177" y="97" font-size="15" font-weight="400" text-anchor="start" class="muted">4,553  ·  3.5%</text>
+<text x="116" y="135" font-size="16" font-weight="400" text-anchor="end" class="ink">Python</text><path d="M130,118 h15.764671459622136 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-15.764671459622136 z" class="acc"/><text x="161.76467145962215" y="135" font-size="15" font-weight="400" text-anchor="start" class="muted">2,702  ·  2.1%</text>
+<text x="116" y="173" font-size="16" font-weight="400" text-anchor="end" class="ink">Java</text><path d="M130,156 h12.202349105500751 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-12.202349105500751 z" class="acc"/><text x="158.20234910550076" y="173" font-size="15" font-weight="400" text-anchor="start" class="muted">2,215  ·  1.7%</text>
+<text x="116" y="211" font-size="16" font-weight="400" text-anchor="end" class="ink">C++</text><path d="M130,194 h-0.7595301788998494 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h--0.7595301788998494 z" class="acc"/><text x="145.24046982110016" y="211" font-size="15" font-weight="400" text-anchor="start" class="muted">443  ·  0.3%</text>
+<text x="116" y="249" font-size="16" font-weight="400" text-anchor="end" class="ink">SQL</text><path d="M130,232 h-0.7741598394917237 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h--0.7741598394917237 z" class="acc"/><text x="145.22584016050828" y="249" font-size="15" font-weight="400" text-anchor="start" class="muted">441  ·  0.3%</text>
+</svg>

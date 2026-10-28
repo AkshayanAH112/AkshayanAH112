@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-label="Kafka and Avro order pipeline">
+<title>Kafka and Avro order pipeline</title>
+<style>
+  text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  .ink { fill: #1f2328; } .muted { fill: #59636e; } .acc { fill: #1f7a4a; } .on { fill: #ffffff; }
+  .panel { fill: #f2f4f1; } .panel2 { fill: #e3e8e1; } .accp { fill: #e3f1e8; }
+  .wire { stroke: #8c959f; fill: none; } .wiref { fill: #8c959f; }
+  @media (prefers-color-scheme: dark) {
+    .ink { fill: #e6edf3; } .muted { fill: #9198a1; } .acc { fill: #2f9a68; }
+    .panel { fill: #161b22; } .panel2 { fill: #222a33; } .accp { fill: #13301f; }
+    .wire { stroke: #6e7681; } .wiref { fill: #6e7681; }
+  }
+</style>
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="wiref"/></marker></defs>
+<rect x="0" y="110" width="200" height="96" rx="6" class="panel"/><text x="16" y="138" font-size="17" font-weight="600" text-anchor="start" class="ink">producer.py</text><text x="16" y="162" font-size="14" font-weight="400" text-anchor="start" class="muted">random orders,</text><text x="16" y="183" font-size="14" font-weight="400" text-anchor="start" class="muted">about 10% malformed</text>
+<polyline points="200,158 270,158" class="wire" stroke-width="2" marker-end="url(#head)"/>
+<text x="235" y="146" font-size="13" font-weight="400" text-anchor="middle" class="muted">orders</text>
+<rect x="270" y="70" width="330" height="176" rx="6" class="accp"/><text x="286" y="98" font-size="17" font-weight="600" text-anchor="start" class="ink">consumer.py</text><text x="286" y="122" font-size="14" font-weight="400" text-anchor="start" class="muted">1  deserialise with Avro</text><text x="286" y="143" font-size="14" font-weight="400" text-anchor="start" class="muted">2  validate</text><text x="286" y="164" font-size="14" font-weight="400" text-anchor="start" class="muted">3  retry with backoff</text><text x="286" y="185" font-size="14" font-weight="400" text-anchor="start" class="muted">4  running average price</text><text x="286" y="206" font-size="14" font-weight="400" text-anchor="start" class="muted"></text><text x="286" y="227" font-size="14" font-weight="400" text-anchor="start" class="muted">Schema Registry checks each schema</text>
+<polyline points="600,110 680,60" class="wire" stroke-width="2" marker-end="url(#head)"/>
+<polyline points="600,206 680,254" class="wire" stroke-width="2" marker-end="url(#head)"/>
+<rect x="680" y="14" width="320" height="96" rx="6" class="panel"/><text x="696" y="42" font-size="17" font-weight="600" text-anchor="start" class="ink">orders.stats</text><text x="696" y="66" font-size="14" font-weight="400" text-anchor="start" class="muted">running averages, Avro,</text><text x="696" y="87" font-size="14" font-weight="400" text-anchor="start" class="muted">replayable by stats_consumer</text>
+<rect x="680" y="206" width="320" height="96" rx="6" class="panel"/><text x="696" y="234" font-size="17" font-weight="600" text-anchor="start" class="ink">orders.DLQ</text><text x="696" y="258" font-size="14" font-weight="400" text-anchor="start" class="muted">messages that failed for good,</text><text x="696" y="279" font-size="14" font-weight="400" text-anchor="start" class="muted">read back by dlq_consumer</text>
+</svg>
